@@ -1,0 +1,9 @@
+A la hora de hacer los filtros hacer una funcion que lea los valores y valore si son correctos y se le pasa como parametro el valor con el que lo quiero comparar (Por ejemplo 0 si quiero que sea mayor<=0) y un const string que contenga el mensaje de error.
+max_x		 = LeeDoubleMayorIgualQue(min_x, MSJ_LECT_ABSCISA)
+incremento	 = LeeDoubleMayorIgualQue(0, MSJ_INCREMENTO) 
+for (x = min_x; <= max_x; x= x + incremento){
+	
+	y = Gaussiana(x, esperanza, desviacion)
+
+	cout << "\nf(" << x << ")= "
+}

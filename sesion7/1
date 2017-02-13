@@ -1,0 +1,29 @@
+int ValorAbsoluto (int entero){
+	if (entero < 0)
+		entero = -entero;
+	else 
+		return entero;
+}
+
+El error se encuentra en que si se introduce un numero negativo el programa no devuelve nada, se podria solucionar borrando el "else".
+
+void Imprime (double valor){
+	double valor;
+
+	cout << valor;
+}
+
+El error esta en que se declara 2 veces la variable valor, sobra la declaracion dentro de la funcion.
+
+void cuadrado (int entero) {
+	return entero*entero; 
+}
+
+Las funciones void no devuelven nada por lo que no tiene "return"
+
+bool EsPositivo (int valor){
+	if (valor > 0)
+		return true;
+}
+
+No devuelve nada en el caso de que el numero sea negativo
